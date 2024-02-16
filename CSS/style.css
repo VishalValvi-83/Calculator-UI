@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccccdd;
+    background: linear-gradient(70deg, #6363a0, #babad9);
+    background-repeat: no-repeat;
+}
+.calculator-body {
+    height: 550px;
+    border: 1px solid #28283c;
+    position: relative;
+    width: 400px;
+    background-color: #3d3d5c;
+    margin: 50px auto;
+    border-radius: 15px;
+    padding: 70px 30px;
+    box-shadow: 8px 5px 0px 5px #33334d;
+}
+.calculator-brand {
+    letter-spacing: 1px;
+    color: antiquewhite;
+    position: absolute;
+    top: 15px;
+    font-size: 45px;
+    font-family: "Style Script", cursive;
+}
+.calculator-body span {
+    position: absolute;
+    color: #ccccdd;
+    right: 75px;
+    top: 5px;
+}
+.solar {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    display: flex;
+    border-radius: 2px;
+    background-color: #657c36;
+    height: 40px;
+    width: 150px;
+    padding: 1px;
+    box-shadow: 0 0 5px 2px #33334d;
+}
+.solar div {
+    height: 97%;
+    width: 98%;
+    border: 1px dashed #13131b;
+}
+@font-face {
+    font-family: 'digital';
+    src: url('./digital-7.ttf');
+}
+.calculator-screen {
+    font-family: 'digital';
+    line-height: 30px;
+    font-size: 50px;
+    padding: 5px;
+    display: block;
+    margin: 40px auto;
+    text-align: right;
+    width: 90%;
+    background-color: #a1af77;
+    box-shadow: 0 0 5px 10px #33334d;
+}
+.buttons-container {
+    margin-top: 40px;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.btn {
+    background-color: antiquewhite;
+    height: 65px;
+    text-align: center;
+    padding: 2px;
+    border: 3px double black;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 75px;
+    margin: 3px;
+}
+.btn:hover {
+    box-shadow: 0 0 10px 0 #13131b;
+    transition: 0.3s;
+}
+.clear {
+    color: white;
+    background-color: #ff6348;
+    border-radius: 20px;
+    width: 100px;
+    margin: 0 0px;
+}
+.allclear{
+    color: white;
+    background-color: #ff6348;
+}
+.equals {
+    color: white;
+    height: 150px;
+    background-color: #ff6348;
+}
